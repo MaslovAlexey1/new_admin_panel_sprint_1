@@ -48,7 +48,7 @@ CREATE INDEX genre_film_work_film_work_id ON content.genre_film_work(film_work_i
 CREATE TABLE IF NOT EXISTS content.genre (
     id uuid PRIMARY KEY,
     name varchar(32) NOT NULL,
-    description text NOT NULL,
+    description TEXT,
     created timestamp with time zone,
     modified timestamp with time zone
 );

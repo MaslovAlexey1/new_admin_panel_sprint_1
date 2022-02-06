@@ -1,2 +1,5 @@
 02_movies_admin/config/.env
 env
+.DS_Store
+02_movies_admin/movies/migrations/__pycache__/
+02_movies_admin/movies/__pycache__/
